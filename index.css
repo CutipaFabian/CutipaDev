@@ -1,0 +1,58 @@
+body{
+    display: flex;
+    /* Se cambia el color del fondo */
+    background-color: rgba(240, 255, 101, 0.788);
+    /* se cambia el justify, de left lo coloque en center */
+    justify-content: center; 
+    color: rgb(0, 0, 0);
+
+}
+.derecha, .izquierda{
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    padding: 30px 50px;
+    background-color: rgba(255, 67, 67, 0.658);
+    margin: 20px;
+    border: 5px solid black;
+}
+
+.izquierda{
+    max-width: 45%; /*SE AUMENTA EL TAMAÑO PORCENTUAL DE LA SECTION IZQUIERDA DE 30% a 45% */
+    min-width: 30px;
+}
+
+
+/* no existe ninguna clase "derecha" */
+/* .derecha{
+    max-width: 50%;
+} */
+
+
+.inicio{
+    text-align: center;
+}
+img{
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+}
+
+h2{
+    margin-top: 40px;
+}
+
+/* TODO ESTE BLOQUE DE CODIgO NO SIRVE
+h3, li, img{
+width: 20px;
+background-color: gray;
+margin-right: 5px;
+} */
+
+/* Se agrega estilos al tipo div */
+div {
+    background-color:  rgba(255, 0, 0, 0.397);
+    padding: 5px 15px;
+    margin: 10px 15px;
+    border-radius: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.301);
+}
